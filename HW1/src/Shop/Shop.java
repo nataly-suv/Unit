@@ -8,17 +8,17 @@ import java.util.List;
 public class Shop {
 
     public static void main(String[] args) {
-        List<Product> products = new ArrayList<>();
-
-        products.add(new Product(39, "морковь"));
-        products.add(new Product(150, "сахар"));
-        products.add(new Product(65, "хлеб"));
-        products.add(new Product(99, "молоко"));
-
-        products = getSortedListProducts(products);
-        System.out.println(products);
-
-        System.out.println(getMostExpensiveProduct(products));
+//        List<Product> products = new ArrayList<>();
+////
+////        products.add(new Product(39, "морковь"));
+////        products.add(new Product(150, "сахар"));
+////        products.add(new Product(65, "хлеб"));
+////        products.add(new Product(99, "молоко"));
+////
+////        products = getSortedListProducts(products);
+////        System.out.println(products);
+////
+////        System.out.println(getMostExpensiveProduct(products));
 
     }
 
