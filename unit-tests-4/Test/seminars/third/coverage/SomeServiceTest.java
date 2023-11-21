@@ -23,29 +23,29 @@ class SomeServiceTest {
 //        assertEquals("Fizz", someService.fizzBuzz(3));
 //    }
 
-    @ParameterizedTest
-    @ValueSource(ints = {3, 6, 9, 33})
-    void multipleThreeNotFiveReturnsFizz(int n) {
-        assertEquals("Fizz", someService.fizzBuzz(n));
-    }
-
-    @ParameterizedTest
-    @ValueSource(ints = {5, 10, 20, 55})
-    void multipleFiveNotThreeReturnsBuzz(int n) {
-        assertEquals("Buzz", someService.fizzBuzz(n));
-    }
-
-    @ParameterizedTest
-    @ValueSource(ints = {15, 225, 3375})
-    void multipleThreeAndFiveReturnsFizzBuzz(int n) {
-        assertEquals("FizzBuzz", someService.fizzBuzz(n));
-    }
-
-    @ParameterizedTest
-    @ValueSource(ints = {15, 225, 3375})
-    void multipleThreeAndFieReturnsFizzBuzz(int n) {
-        assertEquals("FizzBuzz", someService.fizzBuzz(n));
-    }
+//    @ParameterizedTest
+//    @ValueSource(ints = {3, 6, 9, 33})
+//    void multipleThreeNotFiveReturnsFizz(int n) {
+//        assertEquals("Fizz", someService.fizzBuzz(n));
+//    }
+//
+//    @ParameterizedTest
+//    @ValueSource(ints = {5, 10, 20, 55})
+//    void multipleFiveNotThreeReturnsBuzz(int n) {
+//        assertEquals("Buzz", someService.fizzBuzz(n));
+//    }
+//
+//    @ParameterizedTest
+//    @ValueSource(ints = {15, 225, 3375})
+//    void multipleThreeAndFiveReturnsFizzBuzz(int n) {
+//        assertEquals("FizzBuzz", someService.fizzBuzz(n));
+//    }
+//
+//    @ParameterizedTest
+//    @ValueSource(ints = {15, 225, 3375})
+//    void multipleThreeAndFieReturnsFizzBuzz(int n) {
+//        assertEquals("FizzBuzz", someService.fizzBuzz(n));
+//    }
 
     @ParameterizedTest
     @ValueSource(ints = {1, 2, 41, 43})

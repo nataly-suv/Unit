@@ -13,6 +13,10 @@ public class CreditCard {
         this.cvv = cvv;
     }
 
+    public void charge(double amount) {
+        System.out.println("Charged amount " + amount + " from the card: " + cardNumber);
+    }
+
     public String getCardNumber() {
         return cardNumber;
     }
@@ -29,8 +33,6 @@ public class CreditCard {
         return cvv;
     }
 
-    public void charge(double amount) {
-        System.out.println("Charged amount " + amount + " from the card: " + cardNumber);
-    }
+
 }
 
